@@ -1,0 +1,11 @@
+%head
+	- if artisan_signed_in?
+		%title ArtisanEngine Auth Back-End: Signed In as Artisan
+	- else
+		%title ArtisanEngine Auth Back-End: Signed Out
+	
+	= render 'layouts/manage/stylesheets'
+	= yield :stylesheets
+	
+	= javascript_include_tag :defaults
+	= yield :javascripts

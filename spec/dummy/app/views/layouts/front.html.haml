@@ -1,0 +1,12 @@
+!!!
+
+%html
+	%head
+		- if artisan_signed_in?
+			%title ArtisanEngine Auth: Signed In as Artisan
+		- else
+			%title ArtisanEngine Auth: Signed Out
+	
+	%body
+		= render 'shared/notifications'
+		= yield
