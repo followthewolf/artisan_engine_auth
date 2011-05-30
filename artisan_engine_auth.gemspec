@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'artisan_engine_auth'
   s.summary     = 'Authentication and authorization for ArtisanEngine.'
-  s.description = 'TODO.'
+  s.description = 'Authentication and authorization for ArtisanEngine.'
   s.files       = Dir[ "{ app, config, lib }/**/*" ] + [ "Gemfile" ]
   s.version     = '0.0.1'
 
