@@ -1,12 +1,6 @@
-PATH
-  remote: .
-  specs:
-    artisan_engine_auth (0.0.1)
-      artisan_engine_core
-      devise (= 1.3.4)
-
-PATH
-  remote: ../core
+GIT
+  remote: git@github.com:followthewolf/artisan_engine_core.git
+  revision: 138fa8e74714a35181aef1c2b0e55e77d127e274
   specs:
     artisan_engine_core (0.0.1)
       barista (= 1.0.0)
@@ -18,6 +12,13 @@ PATH
       rails (= 3.0.7)
       rdiscount (= 1.6.8)
       sqlite3 (= 1.3.3)
+
+PATH
+  remote: .
+  specs:
+    artisan_engine_auth (0.0.1)
+      artisan_engine_core
+      devise (= 1.3.4)
 
 GEM
   remote: http://rubygems.org/
